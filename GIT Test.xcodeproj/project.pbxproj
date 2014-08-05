@@ -21,6 +21,7 @@
 		A516870E199162D8001E9C4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A51686F0199162D8001E9C4E /* UIKit.framework */; };
 		A5168716199162D8001E9C4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5168714199162D8001E9C4E /* InfoPlist.strings */; };
 		A5168718199162D8001E9C4E /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5168717199162D8001E9C4E /* GIT_TestTests.m */; };
+		A516872319916455001E9C4E /* MDTTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A516872219916455001E9C4E /* MDTTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A5168713199162D8001E9C4E /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		A5168715199162D8001E9C4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5168717199162D8001E9C4E /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		A516872119916455001E9C4E /* MDTTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDTTest.h; sourceTree = "<group>"; };
+		A516872219916455001E9C4E /* MDTTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDTTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		A51686E0199162D8001E9C4E = {
 			isa = PBXGroup;
 			children = (
+				A516872119916455001E9C4E /* MDTTest.h */,
+				A516872219916455001E9C4E /* MDTTest.m */,
 				A51686F2199162D8001E9C4E /* GIT Test */,
 				A5168711199162D8001E9C4E /* GIT TestTests */,
 				A51686EB199162D8001E9C4E /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5168703199162D8001E9C4E /* MDTViewController.m in Sources */,
+				A516872319916455001E9C4E /* MDTTest.m in Sources */,
 				A51686FD199162D8001E9C4E /* MDTAppDelegate.m in Sources */,
 				A51686F9199162D8001E9C4E /* main.m in Sources */,
 			);
